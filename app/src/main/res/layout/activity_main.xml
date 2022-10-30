@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/prosangue" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/usuarioLogin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint=" Usuário"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/senhaLogin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint=" Senha"
+        android:inputType="textPassword"
+        tools:ignore="TouchTargetSizeCheck" />
+
+
+        <Button
+            android:id="@+id/entrarLogin"
+            android:layout_width="128dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:text="Entrar"
+            android:textAlignment="center"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/cadastre_se"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cadastre-se"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/teste"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Realize o Teste"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+       </LinearLayout>
+</ScrollView>
+
+
+

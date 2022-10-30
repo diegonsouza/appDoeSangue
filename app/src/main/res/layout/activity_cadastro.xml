@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Cadastro">
+
+    <ImageView
+        android:id="@+id/imageProSangue2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/prosangue"
+        android:contentDescription="TODO" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Cadastro"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint=" Nome" />
+
+    <EditText
+        android:id="@+id/sobrenomeCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint=" Sobrenome" />
+
+    <EditText
+        android:id="@+id/emailCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/usuarioCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint=" Usuario"/>
+
+    <EditText
+        android:id="@+id/senhaCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:autofillHints=""
+        android:hint=" Senha"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonCadastrar"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="40dp"
+        android:text="Cadastrar"
+        android:textSize="17sp"/>
+
+</LinearLayout>
