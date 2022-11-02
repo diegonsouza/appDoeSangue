@@ -21,6 +21,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
         android:text="@string/login"
         android:textStyle="bold" />
 
@@ -28,6 +29,7 @@
         android:id="@+id/usuarioLogin"
         android:layout_width="match_parent"
         android:layout_height="40dp"
+        style="@style/mCustomEditText"
         android:hint=" Usuário"
         tools:ignore="TouchTargetSizeCheck" />
 
@@ -35,6 +37,7 @@
         android:id="@+id/senhaLogin"
         android:layout_width="match_parent"
         android:layout_height="40dp"
+        style="@style/mCustomEditText"
         android:hint=" Senha"
         android:inputType="textPassword"
         tools:ignore="TouchTargetSizeCheck" />
@@ -46,6 +49,8 @@
             android:layout_height="40dp"
             android:layout_gravity="center"
             android:text="Entrar"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
             android:textAlignment="center"
             android:textSize="17sp" />
 
@@ -53,6 +58,7 @@
             android:id="@+id/cadastre_se"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Cadastre-se"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -61,6 +67,7 @@
             android:id="@+id/teste"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Realize o Teste"
             android:textAlignment="center"
             android:textSize="24sp"

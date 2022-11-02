@@ -3,10 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Diego/AndroidStudioProjects/DoeSangue/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3525" />
         <entry key="..\:/Users/Diego/AndroidStudioProjects/DoeSangue/app/src/main/res/drawable/round_bt.xml" value="0.22" />
         <entry key="..\:/Users/Diego/AndroidStudioProjects/DoeSangue/app/src/main/res/drawable/round_rt.xml" value="0.22" />
         <entry key="..\:/Users/Diego/AndroidStudioProjects/DoeSangue/app/src/main/res/layout/activity_cadastro.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Diego/AndroidStudioProjects/DoeSangue/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Diego/AndroidStudioProjects/DoeSangue/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Diego/AndroidStudioProjects/DoeSangue/app/src/main/res/layout/activity_perguntas.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Diego/AndroidStudioProjects/DoeSangue/app/src/main/res/layout/activity_resultado.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Diego/AndroidStudioProjects/DoeSangue/app/src/main/res/layout/activity_resultado_teste.xml" value="0.36666666666666664" />
       </map>
